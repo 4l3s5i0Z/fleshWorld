@@ -41,7 +41,7 @@ public class DowsingRodItem extends Item {
             }
 
             if(!foundBlock) {
-                player.sendMessage(new TranslatableComponent("item.tutorialmod.dowsing_rod.no_valuables"),
+                player.sendMessage(new TranslatableComponent("item.fleshworld.dowsing_rod.no_valuables"),
                         player.getUUID());
             }
         }
@@ -55,9 +55,9 @@ public class DowsingRodItem extends Item {
     @Override
     public void appendHoverText(ItemStack pStack, @Nullable Level pLevel, List<Component> pTooltipComponents, TooltipFlag pIsAdvanced) {
         if(Screen.hasShiftDown()) {
-            pTooltipComponents.add(new TranslatableComponent("tooltip.tutorialmod.dowsing_rod.tooltip.shift"));
+            pTooltipComponents.add(new TranslatableComponent("tooltip.fleshworld.dowsing_rod.tooltip.shift"));
         } else {
-            pTooltipComponents.add(new TranslatableComponent("tooltip.tutorialmod.dowsing_rod.tooltip"));
+            pTooltipComponents.add(new TranslatableComponent("tooltip.fleshworld.dowsing_rod.tooltip"));
         }
     }
 

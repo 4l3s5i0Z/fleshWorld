@@ -25,6 +25,19 @@ public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, FleshWorld.MOD_ID);
 
+    // mine
+    public static final RegistryObject<Block> ROTTEN_BLOCK = registerBlock("rotten_block",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE).destroyTime(3)), ModCreativeModeTab.TUTORIAL_TAB);
+    public static final RegistryObject<Block> MUTTON_BLOCK = registerBlock("mutton_block",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE).destroyTime(3)), ModCreativeModeTab.TUTORIAL_TAB);
+    public static final RegistryObject<Block> COW_BLOCK = registerBlock("cow_block",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE).destroyTime(3)), ModCreativeModeTab.TUTORIAL_TAB);
+    public static final RegistryObject<Block> CHICKEN_BLOCK = registerBlock("chicken_block",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE).destroyTime(3)), ModCreativeModeTab.TUTORIAL_TAB);
+    public static final RegistryObject<Block> PIG_BLOCK = registerBlock("pig_block",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE).destroyTime(3)), ModCreativeModeTab.TUTORIAL_TAB);
+
+    // not mine
     public static final RegistryObject<Block> CITRINE_BLOCK = registerBlock("citrine_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
                     .strength(9f).requiresCorrectToolForDrops()), ModCreativeModeTab.TUTORIAL_TAB);
