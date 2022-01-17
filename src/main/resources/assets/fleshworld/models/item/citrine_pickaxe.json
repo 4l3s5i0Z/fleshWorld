@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "fleshworld:item/citrine_pickaxe"
+  }
+}

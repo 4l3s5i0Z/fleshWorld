@@ -1,0 +1,47 @@
+{
+  "item.fleshworld.citrine": "Citrine",
+  "item.fleshworld.raw_citrine": "Raw Citrine",
+  "item.fleshworld.dowsing_rod": "Dowsing Rod",
+  "item.fleshworld.cucumber": "Cucumber",
+  "item.fleshworld.coal_coke": "Coal Coke",
+
+  "item.fleshworld.citrine_pickaxe": "Citrine Pickaxe",
+  "item.fleshworld.citrine_axe": "Citrine Axe",
+  "item.fleshworld.citrine_shovel": "Citrine Shovel",
+  "item.fleshworld.citrine_hoe": "Citrine Hoe",
+  "item.fleshworld.citrine_sword": "Citrine Sword",
+
+  "item.fleshworld.citrine_helmet": "Citrine Helmet",
+  "item.fleshworld.citrine_chestplate": "Citrine Chestplate",
+  "item.fleshworld.citrine_leggings": "Citrine Leggings",
+  "item.fleshworld.citrine_boots": "Citrine Boots",
+
+  "block.fleshworld.citrine_block": "Citrine Block",
+  "block.fleshworld.raw_citrine_block": "Raw Citrine Block",
+  "block.fleshworld.citrine_ore": "Citrine Ore",
+  "block.fleshworld.deepslate_citrine_ore": "Deepslate Citrine Ore",
+  "block.fleshworld.netherrack_citrine_ore": "Netherrack Citrine Ore",
+  "block.fleshworld.endstone_citrine_ore": "Endstone Citrine Ore",
+  "block.fleshworld.speedy_block": "Speedy Block",
+
+  "block.fleshworld.citrine_slab": "Citrine Slab",
+  "block.fleshworld.citrine_stairs": "Citrine Stairs",
+  "block.fleshworld.citrine_fence": "Citrine Fence",
+  "block.fleshworld.citrine_wall": "Citrine Wall",
+  "block.fleshworld.citrine_fence_gate": "Citrine Fence Gate",
+
+  "block.fleshworld.citrine_button": "Citrine Button",
+  "block.fleshworld.citrine_pressure_plate": "Citrine Pressure Plate",
+  "block.fleshworld.ebony_door": "Ebony Door",
+  "block.fleshworld.ebony_trapdoor": "Ebony Trapdoor",
+
+  "block.fleshworld.pink_rose": "Pink Rose",
+  "block.fleshworld.potted_pink_rose": "Potted Pink Rose",
+
+  "itemGroup.tutorialtab": "Tutorial Mod",
+
+  "item.fleshworld.dowsing_rod.no_valuables": "No Valuables Found!",
+  "tooltip.fleshworld.dowsing_rod.tooltip.shift": "Right Click to find Valuables!",
+  "tooltip.fleshworld.dowsing_rod.tooltip": "Press §eSHIFT§r for more Information!",
+  "tooltip.fleshworld.block.speedy_block": "I am speed!"
+}

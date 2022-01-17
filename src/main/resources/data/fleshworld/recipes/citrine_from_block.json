@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "fleshworld:citrine_block"
+    }
+  ],
+  "result": {
+    "item": "fleshworld:citrine",
+    "count": 9
+  }
+}

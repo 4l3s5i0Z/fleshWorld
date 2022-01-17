@@ -1,6 +1,0 @@
-{
-  "parent": "fleshworld:block/cube_all",
-  "textures": {
-    "all": "fleshworld:block/rotten_block"
-  }
-}

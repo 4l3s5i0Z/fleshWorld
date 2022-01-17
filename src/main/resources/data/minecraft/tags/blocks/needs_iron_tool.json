@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "fleshworld:citrine_ore",
+    "fleshworld:citrine_block",
+    "fleshworld:raw_citrine_block",
+    "fleshworld:deepslate_citrine_ore",
+    "fleshworld:netherrack_citrine_ore",
+    "fleshworld:endstone_citrine_ore"
+  ]
+}

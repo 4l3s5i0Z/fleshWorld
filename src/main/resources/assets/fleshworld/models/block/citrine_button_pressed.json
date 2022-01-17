@@ -1,0 +1,6 @@
+{
+  "parent": "block/button_pressed",
+  "textures": {
+    "texture": "fleshworld:block/citrine_block"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_top",
+  "textures": {
+    "top": "fleshworld:block/ebony_door_top",
+    "bottom": "fleshworld:block/ebony_door_bottom"
+  }
+}

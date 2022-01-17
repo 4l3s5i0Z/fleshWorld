@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "fleshworld:block/citrine_slab"
+    },
+    "type=double": {
+      "model": "fleshworld:block/citrine_block"
+    },
+    "type=top": {
+      "model": "fleshworld:block/citrine_slab_top"
+    }
+  }
+}
