@@ -8,11 +8,11 @@
   ],
   "key": {
   "#": {
-    "item": "minecraft:mutton"
+    "item": "minecraft:rabbit"
   }
   },
   "result": {
-    "item": "fleshworld:raw_mutton_block",
+    "item": "fleshworld:raw_rabbit_block",
     "count": 1
   }
 }

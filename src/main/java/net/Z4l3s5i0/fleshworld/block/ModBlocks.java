@@ -11,8 +11,11 @@ import net.minecraft.world.item.*;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.material.Fluid;
+import net.minecraft.world.level.material.FluidState;
 import net.minecraft.world.level.material.Material;
 import net.minecraftforge.eventbus.api.IEventBus;
+import net.minecraftforge.fluids.ForgeFlowingFluid;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
@@ -27,28 +30,33 @@ public class ModBlocks {
 
     // mine
     public static final RegistryObject<Block> ROTTEN_BLOCK = registerBlock("rotten_flesh_block",
-            () -> new Block(BlockBehaviour.Properties.of(Material.STONE).destroyTime(3)), ModCreativeModeTab.TUTORIAL_TAB);
+            () -> new Block(BlockBehaviour.Properties.of(Material.DIRT).destroyTime(3)), ModCreativeModeTab.TUTORIAL_TAB);
     public static final RegistryObject<Block> RAW_MUTTON_BLOCK = registerBlock("raw_mutton_block",
-            () -> new Block(BlockBehaviour.Properties.of(Material.STONE).destroyTime(3)), ModCreativeModeTab.TUTORIAL_TAB);
+            () -> new Block(BlockBehaviour.Properties.of(Material.DIRT).destroyTime(3)), ModCreativeModeTab.TUTORIAL_TAB);
     public static final RegistryObject<Block> COOKED_MUTTON_BLOCK = registerBlock("cooked_mutton_block",
-            () -> new Block(BlockBehaviour.Properties.of(Material.STONE).destroyTime(3)), ModCreativeModeTab.TUTORIAL_TAB);
+            () -> new Block(BlockBehaviour.Properties.of(Material.DIRT).destroyTime(3)), ModCreativeModeTab.TUTORIAL_TAB);
     public static final RegistryObject<Block> RAW_BEEF_BLOCK = registerBlock("raw_beef_block",
-            () -> new Block(BlockBehaviour.Properties.of(Material.STONE).destroyTime(3)), ModCreativeModeTab.TUTORIAL_TAB);
+            () -> new Block(BlockBehaviour.Properties.of(Material.DIRT).destroyTime(3)), ModCreativeModeTab.TUTORIAL_TAB);
     public static final RegistryObject<Block> COOKED_BEEF_BLOCK = registerBlock("cooked_beef_block",
-            () -> new Block(BlockBehaviour.Properties.of(Material.STONE).destroyTime(3)), ModCreativeModeTab.TUTORIAL_TAB);
+            () -> new Block(BlockBehaviour.Properties.of(Material.DIRT).destroyTime(3)), ModCreativeModeTab.TUTORIAL_TAB);
     public static final RegistryObject<Block> RAW_CHICKEN_BLOCK = registerBlock("raw_chicken_block",
-            () -> new Block(BlockBehaviour.Properties.of(Material.STONE).destroyTime(3)), ModCreativeModeTab.TUTORIAL_TAB);
+            () -> new Block(BlockBehaviour.Properties.of(Material.DIRT).destroyTime(3)), ModCreativeModeTab.TUTORIAL_TAB);
     public static final RegistryObject<Block> COOKED_CHICKEN_BLOCK = registerBlock("cooked_chicken_block",
-            () -> new Block(BlockBehaviour.Properties.of(Material.STONE).destroyTime(3)), ModCreativeModeTab.TUTORIAL_TAB);
+            () -> new Block(BlockBehaviour.Properties.of(Material.DIRT).destroyTime(3)), ModCreativeModeTab.TUTORIAL_TAB);
     public static final RegistryObject<Block> RAW_PORKCHOP_BLOCK = registerBlock("raw_porkchop_block",
-            () -> new Block(BlockBehaviour.Properties.of(Material.STONE).destroyTime(3)), ModCreativeModeTab.TUTORIAL_TAB);
+            () -> new Block(BlockBehaviour.Properties.of(Material.DIRT).destroyTime(3)), ModCreativeModeTab.TUTORIAL_TAB);
     public static final RegistryObject<Block> COOKED_PORKCHOP_BLOCK = registerBlock("cooked_porkchop_block",
-            () -> new Block(BlockBehaviour.Properties.of(Material.STONE).destroyTime(3)), ModCreativeModeTab.TUTORIAL_TAB);
+            () -> new Block(BlockBehaviour.Properties.of(Material.DIRT).destroyTime(3)), ModCreativeModeTab.TUTORIAL_TAB);
     public static final RegistryObject<Block> RAW_RABBIT_BLOCK = registerBlock("raw_rabbit_block",
-            () -> new Block(BlockBehaviour.Properties.of(Material.STONE).destroyTime(3)), ModCreativeModeTab.TUTORIAL_TAB);
+            () -> new Block(BlockBehaviour.Properties.of(Material.DIRT).destroyTime(3)), ModCreativeModeTab.TUTORIAL_TAB);
     public static final RegistryObject<Block> COOKED_RABBIT_BLOCK = registerBlock("cooked_rabbit_block",
-            () -> new Block(BlockBehaviour.Properties.of(Material.STONE).destroyTime(3)), ModCreativeModeTab.TUTORIAL_TAB);
-
+            () -> new Block(BlockBehaviour.Properties.of(Material.DIRT).destroyTime(3)), ModCreativeModeTab.TUTORIAL_TAB);
+    public static final RegistryObject<Block> FLESH_STONE = registerBlock("flesh_stone",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE).destroyTime(5)), ModCreativeModeTab.TUTORIAL_TAB);
+    /*
+    public static final RegistryObject<Fluid> BLOOD_WATER = regisertFluid("blood_water",
+            () -> new Fluid(whuuuuut));
+     */
     // not mine
     public static final RegistryObject<Block> CITRINE_BLOCK = registerBlock("citrine_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
