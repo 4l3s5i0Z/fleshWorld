@@ -15,7 +15,13 @@ import net.minecraftforge.registries.RegistryObject;
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, FleshWorld.MOD_ID);
+    // mine
+    public static final RegistryObject<Item> RAW_MEAT_PLANT = ITEMS.register("raw_meat_plant",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.TUTORIAL_TAB).food(ModFoods.RAW_MEAT_PLANT)));
+    public static final RegistryObject<Item> ROTTEN_FLESH_PLANT = ITEMS.register("rotten_flesh_plant",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.TUTORIAL_TAB).food(ModFoods.ROTTEN_FLESH_PLANT)));
 
+    //not mine
     public static final RegistryObject<Item> CITRINE = ITEMS.register("citrine",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.TUTORIAL_TAB)));
 
