@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+  "#": {
+    "item": "minecraft:porkchop"
+  }
+  },
+  "result": {
+    "item": "fleshworld:raw_porkchop_block",
+    "count": 1
+  }
+}

@@ -26,15 +26,27 @@ public class ModBlocks {
             DeferredRegister.create(ForgeRegistries.BLOCKS, FleshWorld.MOD_ID);
 
     // mine
-    public static final RegistryObject<Block> ROTTEN_BLOCK = registerBlock("rotten_block",
+    public static final RegistryObject<Block> ROTTEN_BLOCK = registerBlock("rotten_flesh_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE).destroyTime(3)), ModCreativeModeTab.TUTORIAL_TAB);
-    public static final RegistryObject<Block> MUTTON_BLOCK = registerBlock("mutton_block",
+    public static final RegistryObject<Block> RAW_MUTTON_BLOCK = registerBlock("raw_mutton_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE).destroyTime(3)), ModCreativeModeTab.TUTORIAL_TAB);
-    public static final RegistryObject<Block> COW_BLOCK = registerBlock("cow_block",
+    public static final RegistryObject<Block> COOKED_MUTTON_BLOCK = registerBlock("cooked_mutton_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE).destroyTime(3)), ModCreativeModeTab.TUTORIAL_TAB);
-    public static final RegistryObject<Block> CHICKEN_BLOCK = registerBlock("chicken_block",
+    public static final RegistryObject<Block> RAW_BEEF_BLOCK = registerBlock("raw_beef_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE).destroyTime(3)), ModCreativeModeTab.TUTORIAL_TAB);
-    public static final RegistryObject<Block> PIG_BLOCK = registerBlock("pig_block",
+    public static final RegistryObject<Block> COOKED_BEEF_BLOCK = registerBlock("cooked_beef_block",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE).destroyTime(3)), ModCreativeModeTab.TUTORIAL_TAB);
+    public static final RegistryObject<Block> RAW_CHICKEN_BLOCK = registerBlock("raw_chicken_block",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE).destroyTime(3)), ModCreativeModeTab.TUTORIAL_TAB);
+    public static final RegistryObject<Block> COOKED_CHICKEN_BLOCK = registerBlock("cooked_chicken_block",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE).destroyTime(3)), ModCreativeModeTab.TUTORIAL_TAB);
+    public static final RegistryObject<Block> RAW_PORKCHOP_BLOCK = registerBlock("raw_porkchop_block",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE).destroyTime(3)), ModCreativeModeTab.TUTORIAL_TAB);
+    public static final RegistryObject<Block> COOKED_PORKCHOP_BLOCK = registerBlock("cooked_porkchop_block",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE).destroyTime(3)), ModCreativeModeTab.TUTORIAL_TAB);
+    public static final RegistryObject<Block> RAW_RABBIT_BLOCK = registerBlock("raw_rabbit_block",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE).destroyTime(3)), ModCreativeModeTab.TUTORIAL_TAB);
+    public static final RegistryObject<Block> COOKED_RABBIT_BLOCK = registerBlock("cooked_rabbit_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE).destroyTime(3)), ModCreativeModeTab.TUTORIAL_TAB);
 
     // not mine

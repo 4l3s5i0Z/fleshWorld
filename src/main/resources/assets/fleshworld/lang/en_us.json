@@ -1,9 +1,19 @@
 {
   "block.fleshworld.rotten_block": "Rotten Block",
-  "block.fleshworld.pig_block": "Porkchop Block",
-  "block.fleshworld.cow_block": "Cow Block",
-  "block.fleshworld.mutton_block": "Mutton Block",
-  "block.fleshworld.chicken_block": "Chicken Block",
+  "block.fleshworld.raw_porkchop_block": "Raw Porkchop Block",
+  "block.fleshworld.raw_beef_block": "Raw Beef Block",
+  "block.fleshworld.raw_mutton_block": "Raw Mutton Block",
+  "block.fleshworld.raw_chicken_block": "Raw Chicken Block",
+  "block.fleshworld.raw_rabbit_block": "Raw Rabbit Block",
+
+  "block.fleshworld.cooked_porkchop_block": "Cooked Porkchop Block",
+  "block.fleshworld.cooked_beef_block": "Cooked Beef Block",
+  "block.fleshworld.cooked_mutton_block": "Cooked Mutton Block",
+  "block.fleshworld.cooked_chicken_block": "Cooked Chicken Block",
+  "block.fleshworld.cooked_rabbit_block": "Cooked Rabbit Block",
+
+  "item.fleshworld.raw_meat_plant": "Raw Meat Plant",
+  "item.fleshworld.rotten_flesh_plant": "Rotten Flesh Plant",
 
   "item.fleshworld.citrine": "Citrine",
   "item.fleshworld.raw_citrine": "Raw Citrine",

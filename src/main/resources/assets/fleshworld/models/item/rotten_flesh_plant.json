@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "fleshworld:item/rotten_flesh_plant"
+  }
+}

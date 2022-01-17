@@ -1,5 +1,5 @@
 {
   "variants": {
-    "": { "model": "fleshworld:block/rotten_block" }
+    "": { "model": "fleshworld:block/rotten_flesh_block" }
   }
 }
