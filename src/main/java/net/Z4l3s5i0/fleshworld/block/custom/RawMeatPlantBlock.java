@@ -27,7 +27,7 @@ public class RawMeatPlantBlock extends CropBlock {
 
     @Override
     protected ItemLike getBaseSeedId() {
-        return ModItems.RAW_MEAT_PLANT.get();
+        return null;//ModItems.RAW_MEAT_PLANT.get();
     }
 
     @Override
