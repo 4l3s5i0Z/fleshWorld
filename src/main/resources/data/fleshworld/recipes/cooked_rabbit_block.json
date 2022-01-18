@@ -1,6 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "group": "flesh_block",
+  "group": "cooked_flesh",
   "pattern": [
     "###",
     "###",
@@ -8,11 +8,11 @@
   ],
   "key": {
   "#": {
-    "item": "minecraft:rabbit"
+    "item": "minecraft:cooked_rabbit"
   }
   },
   "result": {
-    "item": "fleshworld:raw_rabbit_block",
+    "item": "fleshworld:cooked_rabbit_block",
     "count": 1
   }
 }

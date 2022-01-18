@@ -6,11 +6,11 @@
   ],
   "key": {
   "#": {
-    "item": "minecraft:flesh"
+    "tag": "fleshworld:blocks/flesh_block"
   }
   },
   "result": {
     "item": "fleshworld:flesh_stone",
-    "count": 1
+    "count": 4
   }
 }

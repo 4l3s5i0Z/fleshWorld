@@ -1,6 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "group": "flesh",
+  "group": "flesh_block",
   "pattern": [
     "###",
     "###",

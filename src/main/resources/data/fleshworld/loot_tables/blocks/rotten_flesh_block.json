@@ -7,7 +7,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "fleshworld:rotten_block"
+          "name": "fleshworld:rotten_flesh_block"
         }
       ]
     }

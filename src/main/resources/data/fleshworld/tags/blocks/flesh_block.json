@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "fleshworld:raw_mutton_block",
+    "fleshworld:raw_chicken_block",
+    "fleshworld:raw_beef_block",
+    "fleshworld:raw_porkchop_block",
+    "fleshworld:raw_rabbit_block"
+  ]
+}

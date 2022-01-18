@@ -1,5 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
+  "group": "cooked_flesh",
   "pattern": [
     "###",
     "###",
@@ -7,7 +8,7 @@
   ],
   "key": {
   "#": {
-    "item": "minecraft:steak"
+    "item": "minecraft:cooked_beef"
   }
   },
   "result": {
