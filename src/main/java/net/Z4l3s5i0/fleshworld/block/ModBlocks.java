@@ -56,7 +56,8 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.of(Material.DIRT).destroyTime(3)), ModCreativeModeTab.TUTORIAL_TAB);
     public static final RegistryObject<Block> FLESH_STONE = registerBlock("flesh_stone",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE).destroyTime(5)), ModCreativeModeTab.TUTORIAL_TAB);
-  /*  public static final RegistryObject<Block> RAWMEATPLANT = register("raw_meat_crop",
+/*
+    public static final RegistryObject<Block> RAWMEATPLANT = register("raw_meat_crop",
             () -> new RawMeatPlantBlock(Block.Properties.of(Blocks.WHEAT)), ModCreativeModeTab.TUTORIAL_TAB);
     public static final RegistryObject<Block> ROTTENFLESHPLANT = register("rotten_flesh_crop",
             () -> new RottenFleshPlantBlock(BlockBehaviour.Properties.of(Blocks.WHEAT)), ModCreativeModeTab.TUTORIAL_TAB);

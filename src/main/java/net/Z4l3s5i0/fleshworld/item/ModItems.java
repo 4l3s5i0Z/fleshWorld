@@ -15,15 +15,18 @@ public class ModItems {
             DeferredRegister.create(ForgeRegistries.ITEMS, FleshWorld.MOD_ID);
     // mine
     /*
-    public static final RegistryObject<Item> ROTTEN_FLESH_PLANT = ITEMS.register("rotten_flesh_plant",
+
+    /*public static final RegistryObject<Item> ROTTEN_FLESH_PLANT = ITEMS.register("rotten_flesh_plant",
             () -> new BlockItem(ModBlocks.ROTTENFLESHPLANT.get(),
                     new Item.Properties().food(ModFoods.ROTTEN_FLESH_PLANT).tab(ModCreativeModeTab.TUTORIAL_TAB)));
     public static final RegistryObject<Item> RAW_MEAT_PLANT = ITEMS.register("raw_meat_plant",
             () -> new BlockItem(ModBlocks.RAWMEATPLANT.get(),
                     new Item.Properties().food(ModFoods.RAW_MEAT_PLANT).tab(ModCreativeModeTab.TUTORIAL_TAB)));
 */
+
     public static final RegistryObject<Item> TELEPORT_STICK = ITEMS.register("ring_of_return",
             () -> new TeleportStick(new Item.Properties().tab(ModCreativeModeTab.TUTORIAL_TAB)));
+
     //not mine
     public static final RegistryObject<Item> CITRINE = ITEMS.register("citrine",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.TUTORIAL_TAB)));
