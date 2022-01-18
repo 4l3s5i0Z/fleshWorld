@@ -16,6 +16,9 @@
 
   "item.fleshworld.raw_meat_plant": "Raw Meat Plant",
   "item.fleshworld.rotten_flesh_plant": "Rotten Flesh Plant",
+  "item.fleshworld.teleport_stick": "Teleportation Stick",
+  "item.fleshworld.teleport_stick.setpos": "Position has been set",
+  "item.fleshworld.teleport_stick.teleported": "You have been teleported",
 
   "item.fleshworld.citrine": "Citrine",
   "item.fleshworld.raw_citrine": "Raw Citrine",
