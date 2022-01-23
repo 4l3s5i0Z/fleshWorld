@@ -3,6 +3,7 @@ package net.Z4l3s5i0.fleshworld;
 import net.Z4l3s5i0.fleshworld.block.ModBlocks;
 import net.Z4l3s5i0.fleshworld.painting.ModPaintings;
 import net.Z4l3s5i0.fleshworld.item.ModItems;
+import net.Z4l3s5i0.fleshworld.world.WorldGenerationEvents;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.world.level.block.Blocks;
@@ -28,10 +29,8 @@ public class FleshWorld {
     public FleshWorld() {
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
-        ModItems.register(eventBus);
         ModBlocks.register(eventBus);
-
-        ModPaintings.register(eventBus);
+        ModItems.register(eventBus);
 
         eventBus.addListener(this::setup);
         eventBus.addListener(this::clientSetup);
